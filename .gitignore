@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# FAISS index files
+faiss_index/
+ingestion_pipeline/faiss_index/
+
+# Data folders (optional if large)
+all_pdfs/
